@@ -1,0 +1,53 @@
+/*styles to the entire project repository*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*style the nav container */
+.nav-items{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 020px;
+    margin: 0;
+    list-style-type: none;
+}
+/*style the home to the left of page*/
+.nav-items li:first-car toyota{
+    margin-right: auto;
+}
+/*style(menu,manager,onwer,contact)to the right*/
+.nav-items li {
+    padding: 10px 20px;
+}
+.nav-items{
+    font-size: 20px;
+    font-style: italic;
+    text-decoration-color: black;
+}
+/*make the items light when howering*/
+.nav-items a:hover {
+    color: aqua;
+}
+.hero {
+    height: 100vh;
+    background: url(https://i.pinimg.com/736x/ef/2a/d3/ef2ad3aca181e52e85ea5813adb48b75.jpg);
+display: flex;
+align-items: flex-end;
+padding: 3rem;
+}
+/*into box*/
+.intro-box{
+    background-color: blue;
+    border-radius: 50%;
+    width: 400px;
+    height: 400px;
+    margin-bottom: 2rem;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
