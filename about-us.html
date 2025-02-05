@@ -21,5 +21,56 @@
             </ul>
         </nav>
     </header>
+
+    <main>
+        <section class="form-section">
+            <h2>Buy or Sell a Car</h2>
+            <form id="car-form" action="#" method="POST">
+                <label for="action">I want to:</label>
+                <select id="action" name="action" required>
+                    <option value="buy">Buy a Car</option>
+                    <option value="sell">Sell a Car</option>
+                </select>
+                <br>
+                <p class=".gp">
+            
+
+                </p>
+
+                <!-- Fields for buying -->
+                <div id="buy-fields" class="form-fields">
+                    <label for="car-model">Car Model:</label>
+                    <input type="text" id="car-model" name="car-model" required>
+                    <br>
+
+                    <label for="car-year">Car Year:</label>
+                    <input type="number" id="car-year" name="car-year" required>
+                    <br>
+
+                    <label for="car-budget">Your Budget:</label>
+                    <input type="number" id="car-budget" name="car-budget" required>
+                    <br>
+                </div>
+
+                <!-- Fields for selling -->
+                <div id="sell-fields" class="form-fields" style="display: none;">
+                    <label for="car-make">Car Make:</label>
+                    <input type="text" id="car-make" name="car-make" required>
+                    <br>
+
+                    <label for="car-condition">Car Condition:</label>
+                    <input type="text" id="car-condition" name="car-condition" required>
+                    <br>
+
+                    <label for="asking-price">Asking Price:</label>
+                    <input type="number" id="asking-price" name="asking-price" required>
+                    <br>
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+    </main>
+    <script src="./js/about.js"></script>
 </body>
 </html>
